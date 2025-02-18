@@ -1,0 +1,36 @@
+In cadrul acestei teme, am alcatuit implimentarea unei benzi magice 
+sub forma unei liste dublu inlantuite cu santinela si un nod initial
+pe care se afla degetul.
+Pentru a indeplini aceasta cerinta, am declarat 2 structuri 
+pentru aceasta banda.
+Una pentru nodul din banda,iar alta pentru banda in sine, aceasta
+fiind o lista dublu inlantuita.
+In structura pentru banda am mai adaugat un element numit finger,
+care este pozitia degetului pe banda.
+Dupa ,am alcatuit doua functii, una de creare a nodului 
+si alta de initializare a benzii, pe care ulterior am folosit o 
+in main pentru a ne initializa banda.
+Dupa am alcatuit toate functiile necesare pentru a efectua 
+modificari asupra benzii.
+Dupa ce am finisat functiile, in fisierul tema1.c am realizat citirea lor 
+din fisierul tema1.in si adaugarea lor ulterioara in coada pentru functia EXECUTE.
+Pentru coada respectiva am alcatuit 2 structuri, una pentru nodul din coada
+si alta pentru coada propriu zisa.
+Dupa am alcatuit la fel 2 functii de initializare a nodului si a cozii,
+iar dupa am alcatuit functiile de adaugare si selectare a comenzilor din coada,
+iar in conformitate cu comanda selectata, functia EXECUTE o executa.
+La fel, am creat si o functie de eliberare a memoriei pentru coada.
+Dupa mai avem operatiile UNDO si REDO.
+Intrucat acestea trebuie implimentate folosint stive, 
+am declarat 2 structuri, una pentru nodul din structura,iar alta pentru
+stiva in sine.
+Dupa, asemanator cu ce am facut la coada,am adugat functiile de introducere
+a comenzii in stiva in conformitate cu pozitia degetului pe banda si 
+functia de extragere a comenzii respective din stiva.
+In main, am introdus comanda mai intai in stiva UNDO ,
+iar dupa prelucrarea in functia UNDO, am introodus comanda si in stiva 
+oentru REDO, ca dupa prelucrare in functia REDO, comanda sa fie intoarsa 
+in UNDO in conformitate cu cerinta temei.
+Pe calculatorul propriu ,la rularea checkerului, toate testele au fost trecute
+mai putin testul 28, problema careia nu i am putut gasi solutia.
+
